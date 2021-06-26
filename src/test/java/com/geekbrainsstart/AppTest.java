@@ -47,4 +47,13 @@ public class AppTest
         assertEquals(expected,result);
 
     }
+
+    @Test
+    public void  testMulti(){
+        int a = 3;
+        int b = 2;
+        int expected = 6;
+        int result = App.multi(a,b);
+        assertEquals(expected,result);
+    }
 }

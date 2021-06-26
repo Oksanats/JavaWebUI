@@ -19,4 +19,7 @@ public class App
     public static int simpleDiv(int a,int b){
         return b == 0 ? -1: a/b;
     }
+    public static int multi(int a,int b){
+        return a * b;
+    }
 }
